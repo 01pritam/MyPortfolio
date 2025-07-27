@@ -9,7 +9,7 @@ const PortfolioLandingPage = () => {
       {/* Geometric pattern background */}
       <div className="absolute inset-0 z-0 opacity-40">
         <div className="absolute right-0 top-0 w-1/2 h-full">
-          {Array(40).fill().map((_, i) => (
+          {Array(40).fill(undefined).map((_, i) => (
             <div 
               key={i} 
               className="absolute"

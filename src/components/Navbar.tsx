@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Contact', href: '/contact', current: false },
 ];
 
-function classNames(...classes) {
+function classNames(...classes: (string | false | null | undefined)[]) {
   return classes.filter(Boolean).join(" ");
 }
 
