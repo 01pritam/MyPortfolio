@@ -163,10 +163,10 @@ export default function Page() {
       <Landing />
       <Skills />
 
-      <div>
-        <h1 className="text-4xl font-bold mt-10 text-center">PROJECTS</h1>
-        <AnimatedTestimonials testimonials={testimonials} />
-      </div>
+      <div className="pt-16">
+  <h1 className="text-4xl font-bold mt-10 text-center">PROJECTS</h1>
+  <AnimatedTestimonials testimonials={testimonials} />
+</div>
 
       {/* <Timeline data={data} /> */}
       <CP />

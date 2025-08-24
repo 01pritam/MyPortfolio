@@ -97,19 +97,14 @@ const PortfolioLandingPage = () => {
 
       {/* Social icons */}
       <div className="fixed right-8 top-1/2 transform -translate-y-1/2 flex flex-col gap-6 z-20">
-        <a href="#" className="text-xl hover:text-teal-400 transition-colors">
+        <a href="https://www.linkedin.com/in/pritam-k/" target="_blank" className="text-xl hover:text-teal-400 transition-colors">
           <FaLinkedinIn />
         </a>
-        <a href="#" className="text-xl hover:text-teal-400 transition-colors">
-          <FaTwitter />
-        </a>
-        <a href="#" className="text-xl hover:text-teal-400 transition-colors">
-          <FaInstagram />
-        </a>
-        <a href="#" className="text-xl hover:text-teal-400 transition-colors">
+    
+        <a href="mailto:em.pritamkr@gmail.com" target="_blank" className="text-xl hover:text-teal-400 transition-colors">
           <FaEnvelope />
         </a>
-        <a href="#" className="text-xl hover:text-teal-400 transition-colors">
+        <a href="https://github.com/01pritam" target="_blank" className="text-xl hover:text-teal-400 transition-colors">
           <FaGithub />
         </a>
       </div>
