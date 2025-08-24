@@ -1,13 +1,16 @@
-// Correct import
+// ✅ Correct import path spelling (Testimonial, not Testinomial)\
+"use client";
 import { AnimatedTestimonials } from "@/components/ui/AnimatedTestinomial";
 import { BackgroundLines } from "@/components/ui/BackgroundLines";
-import { Timeline } from "@/components/ui/Timeline";
+// import { Timeline } from "@/components/ui/Timeline";
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import Footer from "@/components/Footer";
 import { testimonials } from "@/data/testimonials";
 import Skills from "@/components/Skills";
-import Landing from "@/components/Landing"
+import Landing from "@/components/Landing";
+import CP from "@/components/CP";
+
 const data = [
   {
     title: "2024",
@@ -22,28 +25,28 @@ const data = [
             alt="startup template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
           <Image
             src="https://assets.aceternity.com/templates/startup-2.webp"
             alt="startup template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
           <Image
             src="https://assets.aceternity.com/templates/startup-3.webp"
             alt="startup template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
           <Image
             src="https://assets.aceternity.com/templates/startup-4.webp"
             alt="startup template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
         </div>
       </div>
@@ -67,28 +70,28 @@ const data = [
             alt="hero template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
           <Image
             src="https://assets.aceternity.com/features-section.png"
             alt="feature template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
           <Image
             src="https://assets.aceternity.com/pro/bento-grids.png"
             alt="bento template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
           <Image
             src="https://assets.aceternity.com/cards.png"
             alt="cards template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
         </div>
       </div>
@@ -124,28 +127,28 @@ const data = [
             alt="hero template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
           <Image
             src="https://assets.aceternity.com/features-section.png"
             alt="feature template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
           <Image
             src="https://assets.aceternity.com/pro/bento-grids.png"
             alt="bento template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
           <Image
             src="https://assets.aceternity.com/cards.png"
             alt="cards template"
             width={500}
             height={500}
-            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow-[0_0_24px_rgba(34,_42,_53,_0.06),_0_1px_1px_rgba(0,_0,_0,_0.05),_0_0_0_1px_rgba(34,_42,_53,_0.04),_0_0_4px_rgba(34,_42,_53,_0.08),_0_16px_68px_rgba(47,_48,_55,_0.05),_0_1px_0_rgba(255,_255,_255,_0.1)_inset]"
+            className="rounded-lg object-cover h-20 md:h-44 lg:h-60 w-full shadow"
           />
         </div>
       </div>
@@ -157,16 +160,17 @@ export default function Page() {
   return (
     <>
       <Navbar />
-     <Landing/>
-
+      <Landing />
       <Skills />
 
-      <div className="  ">
-        <h1 className="text-4xl  font-bold mt-10 text-center">PROJECTS</h1>
+      <div>
+        <h1 className="text-4xl font-bold mt-10 text-center">PROJECTS</h1>
         <AnimatedTestimonials testimonials={testimonials} />
       </div>
 
-      <Timeline data={data} />
+      {/* <Timeline data={data} /> */}
+      <CP />
+      <BackgroundLines/>
 
       <Footer />
     </>

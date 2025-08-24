@@ -14,11 +14,11 @@ const Footer = () => {
             <Link href="/">
               <span className="hover:text-white cursor-pointer">Home</span>
             </Link>
-            <Link href="/about">
+            {/* <Link href="/about">
               <span className="hover:text-white cursor-pointer">About</span>
-            </Link>
-            <Link href="/services">
-              <span className="hover:text-white cursor-pointer">Services</span>
+            </Link> */}
+            <Link href="/projects">
+              <span className="hover:text-white cursor-pointer">Projects</span>
             </Link>
             <Link href="/contact">
               <span className="hover:text-white cursor-pointer">Contact</span>
