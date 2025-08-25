@@ -27,7 +27,7 @@ export default function ContactPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 dark:bg-neutral-900 px-6">
+    <div className="min-h-screen flex items-center justify-center px-6">
       <div className="max-w-lg w-full bg-white dark:bg-neutral-800 rounded-lg shadow-lg p-6">
         <h2 className="text-3xl font-bold text-gray-900 dark:text-white text-center mb-4">
           Contact Me

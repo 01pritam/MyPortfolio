@@ -28,8 +28,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <Navbar/>
-        {children}
+        <Navbar />
+        <main className="pt-20">{children}</main> {/* 👈 Push content below navbar */}
       </body>
     </html>
   );

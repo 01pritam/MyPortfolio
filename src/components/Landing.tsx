@@ -28,12 +28,7 @@ const PortfolioLandingPage = () => {
       </div>
 
       {/* Navigation logo */}
-      <div className="absolute top-8 left-8 z-20">
-        <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 50L50 10L90 50L50 90L10 50Z" stroke="#2DD4BF" strokeWidth="4" fill="none" />
-          <path d="M30 50L50 30L70 50L50 70L30 50Z" stroke="#2DD4BF" strokeWidth="4" fill="none" />
-        </svg>
-      </div>
+      
 
       {/* Main content */}
       <div className="container mx-auto px-8 py-20 md:px-16 flex flex-col h-screen justify-center relative z-10">

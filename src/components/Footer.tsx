@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto px-6 py-8">
         <div className="flex flex-col md:flex-row items-center justify-between">
           {/* Logo */}
-          <div className="text-lg font-semibold text-white">MyWebsite</div>
+          <div className="text-lg font-semibold text-white">MyPortfolio</div>
 
           {/* Navigation Links */}
           <div className="flex space-x-6 mt-4 md:mt-0">
