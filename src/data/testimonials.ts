@@ -5,6 +5,8 @@ export const testimonials = [
     name: "Job-Portal",
     src: "/JobPortal.png",
     designation:"Check",
+    github: "https://github.com/01pritam/Job-Portal-Frontend.git",
+    live: "https://project-one.vercel.app"
   },
   {
     quote:
@@ -12,6 +14,8 @@ export const testimonials = [
     name: "CHESS.COM",
     src: "/chess.png",
     designation:"Check",
+    github: "https://github.com/01pritam/Chess-Instructor.git",
+    live: "https://project-one.vercel.app"
   },
   {
     quote:
@@ -19,6 +23,8 @@ export const testimonials = [
     name: "KEEPER",
     src: "/keeper.png",
     designation:"Check",
+    github: "https://github.com/pritam/project-one",
+    live: "https://project-one.vercel.app"
   },
   {
     quote:
@@ -26,6 +32,8 @@ export const testimonials = [
     name: "Presentation-Analyser",
     src: "/presentation.png",
     designation:"Check",
+    github: "https://github.com/01pritam/Presentation-Analyser.git",
+    live: "https://project-one.vercel.app"
   },
   {
     quote:
@@ -33,6 +41,8 @@ export const testimonials = [
     name: "AYUTRACK",
     src: "/Ayutrack.png",
     designation:"Check",
+    github: "https://github.com/01pritam/AyuTrack.git",
+    live: "https://project-one.vercel.app"
   },
   {
     quote:
@@ -40,5 +50,7 @@ export const testimonials = [
     name: "WEB-SCRAPPER",
     src: "/WebScrapper.png",
     designation:"Check",
+    github: "https://github.com/01pritam/Web-Scrapper.git",
+    live: "https://project-one.vercel.app"
   },
 ];
